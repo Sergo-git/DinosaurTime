@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionEra"
+    android:orientation="vertical"
+    android:background="@drawable/clearbuckground">
+
+
+    <TextView
+        android:id="@+id/tvNameDescripEra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bellflower"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="test"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:scrollbarSize="2dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@color/whiteForScroll"
+        android:scrollbarTrackVertical="@color/brownForScroll"
+        android:requiresFadingEdge="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTextEra0"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/imDescripEra"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/tvTextEra1"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvTextEra2"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvTextEra3"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTextEra4"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTextEra5"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvTextEra6"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/animecev"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/invisible">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/imageEra6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerInside"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:background="@color/invisible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/fence3">
+
+            <ImageButton
+                android:id="@+id/btnBackActivityEra"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btnback2"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageButton
+                android:id="@+id/btnBackMenu4"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btnhome2"
+                app:layout_constraintEnd_toStartOf="@+id/btnBackActivityEra"
+                app:layout_constraintHorizontal_bias="0.917"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnBackActivityEra" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

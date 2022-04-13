@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paleontology"
+    android:orientation="vertical"
+    android:background="@drawable/clearbuckground">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+
+    <TextView
+        android:id="@+id/tvNamePaleontology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="История изучения динозавров"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_bellflower"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:scrollbarSize="2dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbVertical="@color/whiteForScroll"
+        android:scrollbarTrackVertical="@color/brownForScroll"
+        android:requiresFadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvPaleontology1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/StyleForPaleontology"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/gray1"
+            android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/imViewPaleontology1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/paleontologyimage1"/>
+
+        <TextView
+            android:id="@+id/tvPaleontology2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/irinactt"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPaleontology3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/StyleForPaleontology"/>
+
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/imViewPaleontology2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/historyimage0"/>
+
+                <TextView
+                    android:id="@+id/tvPaleontology41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/irinactt"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="•Игуанодон"
+                android:fontFamily="@font/irinactt"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/imViewPaleontology3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/historyimage1" />
+
+                <TextView
+                    android:id="@+id/tvPaleontology33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/irinactt"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/imViewPaleontology4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/historyimage2"/>
+
+                <TextView
+                    android:id="@+id/tvPaleontology334"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/irinactt"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="•Гилеозавр"
+                android:fontFamily="@font/irinactt"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/imViewPaleontology5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/historyimage3" />
+
+                <TextView
+                    android:id="@+id/tvPaleontology444"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/irinactt"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/imViewPaleontology6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/historyimage4" />
+
+                <TextView
+                    android:id="@+id/tvPaleontology555"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/irinactt"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/StyleForPaleontology2"
+                android:id="@+id/tvPaleontology15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                style="@style/StyleForPaleontology"
+                android:id="@+id/tvPaleontology16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/fence3">
+
+            <ImageButton
+                android:id="@+id/btnBack5"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btnback2"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

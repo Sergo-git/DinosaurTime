@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionActivity"
+    android:orientation="vertical"
+    android:background="@drawable/clearbuckground">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+     <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:scrollbarSize="2dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarThumbVertical="@color/whiteForScroll"
+            android:scrollbarTrackVertical="@color/brownForScroll">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/frameforpic">
+
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/imageViewDino"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:background="@color/gray2"
+                                                    android:scaleType="centerInside"
+                                                    android:adjustViewBounds="true"/>
+
+                                                <TextView
+                                                    android:id="@+id/textViewName"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="6"
+                                                    android:background="@color/gray1"
+                                                    android:fontFamily="@font/font_bellflower"
+                                                    android:gravity="center"
+                                                    android:padding="2dp"
+                                                    android:text="Name"
+                                                    android:textAllCaps="true"
+                                                    android:textColor="@color/white"
+                                                    app:autoSizeMaxTextSize="100sp"
+                                                    app:autoSizeMinTextSize="12sp"
+                                                    app:autoSizeStepGranularity="2sp"
+                                                    app:autoSizeTextType="uniform" />
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginRight="4dp"
+                                    android:layout_weight="1.1"
+                                    android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:layout_marginLeft="4dp">
+
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="6dp"
+                                                    android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:id="@+id/length0"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="Длина:"
+                                                            android:textColor="@color/white"/>
+
+                                                        <TextView
+                                                            android:id="@+id/length"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:gravity="center"
+                                                            android:text="length"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/smLength"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="м."
+                                                            android:textColor="@color/white" />
+
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="6dp"
+                                                    android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="Рост:"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/height"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="height"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/smHeight"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="м."
+                                                            android:textColor="@color/white" />
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="6dp"
+                                                    android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="Вес:"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/weight"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="weight"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/kgWeight"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="т."
+                                                            android:textColor="@color/white" />
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="6dp"
+                                                    android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="Период обитания:"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/lifeTime"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="lifetime"
+                                                            android:textColor="@color/white" />
+                                                </LinearLayout>
+
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="6dp"
+                                                    android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/font_bellflower"
+                                                            android:text="Индекс агрессии:"
+                                                            android:textColor="@color/white" />
+
+                                                        <TextView
+                                                            android:id="@+id/aggresionINDEX"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:fontFamily="@font/jurassicparck"
+                                                            android:text="3"
+                                                            android:textColor="@color/red"
+                                                            android:textSize="40sp" />
+
+
+                                                </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_height="wrap_content"
+                                                android:layout_width="wrap_content">
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewAggresIndex"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside"
+                                                    android:src="@drawable/nodino" />
+
+                                            </LinearLayout>
+
+
+
+
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+
+                                <HorizontalScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="4dp"
+                                    android:fadeScrollbars="true"
+                                    android:scrollbarSize="2dp"
+                                    android:scrollbarStyle="insideInset"
+                                    android:scrollbarThumbHorizontal="@color/whiteForScroll"
+                                    android:scrollbarTrackHorizontal="@color/brownForScroll">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="4dp"
+                                            android:orientation="horizontal">
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino1"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside"/>
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino2"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside" />
+
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino3"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside" />
+
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino4"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside" />
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino5"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside" />
+
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino6"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside" />
+
+
+                                                <com.zolad.zoominimageview.ZoomInImageView
+                                                    android:id="@+id/imageViewDino7"
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:scaleType="centerInside"
+                                                    android:src="@drawable/nodino" />
+
+
+                                        </LinearLayout>
+
+                                </HorizontalScrollView>
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewDescript"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/irinactt"
+                            android:text="Description"
+                            android:textColor="@color/white" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/fence3">
+
+            <ImageButton
+                android:id="@+id/btnBackForListElement"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btnback2"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"/>
+
+            <ImageButton
+                android:id="@+id/btnBackMenu1"
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btnhome2"
+                app:layout_constraintEnd_toStartOf="@+id/btnBackForListElement"
+                app:layout_constraintHorizontal_bias="0.917"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnBackForListElement" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

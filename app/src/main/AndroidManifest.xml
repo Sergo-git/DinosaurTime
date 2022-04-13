@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.jp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.JP">
+        <activity android:name=".PaleontologyNews"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Paleontology"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DescriptionEra"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Era"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AboutApp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DescriptionActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityPredator"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StartStartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityHerbivorous"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityMarine"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityFlying"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Predators">
+        <item>Dino1111111</item>
+        <item>Dino2222222</item>
+        <item>Dino3333333</item>
+        <item>Dino4444444</item>
+        <item>Dino5555555</item>
+    </string-array>
+
+</resources>
